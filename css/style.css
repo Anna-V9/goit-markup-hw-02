@@ -1,4 +1,42 @@
 * {
-    font-family: Roboto;
     list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: var(--navy-blue);
+}
+
+a:hover,
+a:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.header-navigation-logo {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.54px;
+    font-size: 18px;
+    font-family: "Raleway-Bold", Helvetica;
+    line-height: 21px;
+}
+.header-navigation-logo-web {
+  width: 44px;
+  color: var(--iris);
+}
+.banner-solution {
+background-color: #2E2F42;
+width: 1440px;
+height: 600px;
+background-size: contain;
+}
+
+.effective-solution {
+ color: white;
+ width: 496px;
+height: 120px;
+text-align: center;
+}
+body {
+    font-family: Roboto;
 }
