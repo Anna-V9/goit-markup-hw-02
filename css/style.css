@@ -66,7 +66,7 @@ color: #434455;
 .effective-solution {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -91,7 +91,8 @@ color: #fff;
   white-space: nowrap;
   cursor: pointer;
 }
-.main-button:hover{
+.main-button:hover
+.main-button:focus{
     background-color: #404BBF;
 
 }
@@ -100,13 +101,13 @@ color: #fff;
 }
 .list-adventages {
     color: #2e2f42;
-    letter-spacing: 0.02em;
 
 }
 .advantage-title {
 font-weight: 500;
 font-size: 20px; 
 line-height: 1.2;
+letter-spacing: 0.02em;
 
 
 }
@@ -135,10 +136,11 @@ color: #2e2f42;
 .team-people {
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize
 }
 
 .team-people-prof {
@@ -168,9 +170,10 @@ color: #2e2f42;
 .portfolio-title {
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-transform: capitalize
 }
 
 .portfolio-app {
